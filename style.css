@@ -7,6 +7,30 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.menu-acces{
+    position: absolute;
+    top: -10em;
+    width: 100%;
+    z-index: 100;
+    background-color: #000000;
+}
+
+
+.menu-acces a{
+   color: white!important;
+   text-decoration: none;
+   background-color: #000000;
+   position: absolute;
+   left: 0;
+   right: 0;
+   text-align: center;
+}
+
+.menu-acces a:focus,
+.menu-acces a:hover{
+    top: 10em;  
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
