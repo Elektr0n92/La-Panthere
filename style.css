@@ -8,7 +8,7 @@ body {
 }
 
 q{
-    font-size: 2em;
+    font-size: 1.7em;
     quotes: '"' '"';
     font-weight: 600;
 }
@@ -714,7 +714,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2em;
 }
 
 .tight-width-whitespace {
