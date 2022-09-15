@@ -10,6 +10,12 @@ body {
 q{
     font-size: 2em;
     quotes: '"' '"';
+    font-weight: 600;
+}
+
+cite{
+    font-size: 1.5em;
+    line-height: 35px;
 }
 
 
