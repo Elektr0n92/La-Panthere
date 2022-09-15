@@ -7,6 +7,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+q{
+    font-size: 2em;
+    quotes: '"' '"';
+}
+
+
+
 .menu-acces{
     position: absolute;
     top: -10em;
