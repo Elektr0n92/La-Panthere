@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+q{
+    font-size: 1.7em;
+    quotes: '"' '"';
+    font-weight: 600;
+}
+
+cite{
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
+
+
 .menu-acces{
     position: absolute;
     top: -10em;
@@ -701,7 +714,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2em;
 }
 
 .tight-width-whitespace {
