@@ -18,7 +18,10 @@ cite{
     line-height: 35px;
 }
 
-
+::placeholder{
+    font-weight: lighter;
+    color: #737373;
+}
 
 .menu-acces{
     position: absolute;
@@ -128,7 +131,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -790,7 +792,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.2);
+    background-color: rgb(64, 64, 64, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -808,7 +810,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: rgba(243, 151, 108, 0.5);
+    background-color: #404040;
 }
 
 .tc-white {
