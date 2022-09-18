@@ -75,7 +75,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    
 }
 
 .bloc .container {
@@ -93,8 +93,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .bg-center,
@@ -330,6 +329,9 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-brand {
@@ -362,6 +364,7 @@ a:hover {
     z-index: 1;
     display: flex;
     gap: 20px;
+    margin-top: 0;
 }
 
 .nav > li {
@@ -551,6 +554,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    display: block;
 }
 
 .scrollToTop {
@@ -957,8 +961,8 @@ h4 {
         float: none!important;
     }
     .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .site-navigation {
         position: inherit;
