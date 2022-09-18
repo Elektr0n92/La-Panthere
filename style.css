@@ -359,12 +359,15 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    display: flex;
+    gap: 20px;
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
