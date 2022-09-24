@@ -545,6 +545,12 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#form_1{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
