@@ -23,6 +23,10 @@ cite{
     color: #737373;
 }
 
+.col-sm-6{
+    max-width: 428px;
+}
+
 .menu-acces{
     position: absolute;
     top: -10em;
@@ -549,13 +553,14 @@ button {
     display: flex;
     flex-flow: column nowrap;
     gap: 10px;
+    width: 100%;
 }
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     display: block;
-    min-width: 400px;
+    width: 94%;
     min-height: 20px;
 }
 
