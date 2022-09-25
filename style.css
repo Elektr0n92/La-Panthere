@@ -556,6 +556,7 @@ button {
     box-shadow: none;
     display: block;
     min-width: 400px;
+    min-height: 20px;
 }
 
 .scrollToTop {
