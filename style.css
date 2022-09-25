@@ -21,6 +21,11 @@ cite{
 ::placeholder{
     font-weight: lighter;
     color: #737373;
+    padding-left: 5px;
+}
+
+input{
+    padding-left: 2px;
 }
 
 .col-sm-6{
@@ -562,6 +567,7 @@ button {
     display: block;
     width: 94%;
     min-height: 20px;
+    margin-top: 10px;
 }
 
 .scrollToTop {
@@ -833,9 +839,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgba(243, 151, 108, 0.5);
+    background:  #bd460f;
     color: #FFFFFF!important;
-    width: fit-content;
 }
 
 .btn-atomic-tangerine:hover {
