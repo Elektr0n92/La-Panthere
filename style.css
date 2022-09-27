@@ -21,6 +21,20 @@ cite{
 ::placeholder{
     font-weight: lighter;
     color: #737373;
+    padding-left: 5px;
+}
+
+#btncontact{
+    width: 95%;
+}
+
+
+input{
+    padding-left: 2px;
+}
+
+.col-sm-6{
+    max-width: 428px;
 }
 
 .menu-acces{
@@ -77,6 +91,10 @@ a:hover {
     background-size: cover;
     position: relative;
     
+}
+
+.idendification{
+    text-align: center;
 }
 
 .bloc .container {
@@ -344,6 +362,7 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    height: 55px;
 }
 
 .nav-center .navbar-brand img {
@@ -545,11 +564,20 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#form_1{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    width: 100%;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     display: block;
-    min-width: 400px;
+    width: 94%;
+    min-height: 20px;
+    margin-top: 10px;
 }
 
 .scrollToTop {
@@ -821,7 +849,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgba(243, 151, 108, 0.5);
+    background:  #bd460f;
     color: #FFFFFF!important;
 }
 
