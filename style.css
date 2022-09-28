@@ -28,6 +28,11 @@ cite{
     width: 95%;
 }
 
+#social{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
 
 input{
     padding-left: 2px;
