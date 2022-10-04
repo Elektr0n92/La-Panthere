@@ -28,6 +28,11 @@ cite{
     width: 95%;
 }
 
+#social{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
 
 input{
     padding-left: 2px;
@@ -82,6 +87,7 @@ a:hover {
 }
 
 .bloc {
+    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -112,7 +118,6 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
-    margin: auto;
 }
 
 .bg-center,
@@ -338,9 +343,6 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .navbar-brand {
@@ -350,8 +352,6 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-    display: inline-flex;
-    padding-left: 0;
 }
 
 .navbar-brand img {
@@ -565,9 +565,6 @@ button {
 }
 
 #form_1{
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
     width: 100%;
 }
 
@@ -982,6 +979,7 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        padding-left: 15px;
     }
     .navbar.row {
         margin-left: auto;
@@ -1096,6 +1094,10 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .col-sm-6{
+        max-width: 100%;
     }
 }
 
