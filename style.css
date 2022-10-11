@@ -18,6 +18,11 @@ cite{
     line-height: 35px;
 }
 
+.social-line{
+    display: flex;
+    justify-content: center;
+}
+
 ::placeholder{
     font-weight: lighter;
     color: #737373;
@@ -32,6 +37,7 @@ cite{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 input{
