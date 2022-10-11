@@ -50,6 +50,9 @@ input{
     background-color: #000000;
 }
 
+label{
+    padding-right: 8px;
+}
 
 .menu-acces a{
    color: white!important;
@@ -566,6 +569,7 @@ button {
 
 #form_1{
     width: 100%;
+    margin-left: 10px;
 }
 
 .form-control {
