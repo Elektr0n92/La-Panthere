@@ -18,6 +18,11 @@ cite{
     line-height: 35px;
 }
 
+.social-line{
+    display: flex;
+    justify-content: center;
+}
+
 ::placeholder{
     font-weight: lighter;
     color: #737373;
@@ -32,6 +37,7 @@ cite{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 input{
@@ -50,6 +56,9 @@ input{
     background-color: #000000;
 }
 
+label{
+    padding-right: 8px;
+}
 
 .menu-acces a{
    color: white!important;
@@ -566,6 +575,7 @@ button {
 
 #form_1{
     width: 100%;
+    margin-left: 10px;
 }
 
 .form-control {
